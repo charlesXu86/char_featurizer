@@ -19,7 +19,7 @@ import char_featurizer
 data = '/home/xsq/nlp_code/char_featurizer/data/data.txt'
 data2 = '明天去你家玩'
 
-feature = char_featurizer.featurize_as_tensor2(data2)
+feature = char_featurizer.featurize_as_tensor(data2)
 
 with tf.Session() as sess:
     sess.run(tf.compat.v1.initializers.tables_initializer())
