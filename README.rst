@@ -1,7 +1,7 @@
 char_featurizer
 ==========================
 
-**char_featurizer** 是一个汉字字符特征提取工具，他可以提取汉字的字音（包括声母、韵母、声调）、字形（偏旁、部首）、四角符号等信息。
+&ensp; &ensp;**char_featurizer** 是一个汉字字符特征提取工具，他可以提取汉字的字音（包括声母、韵母、声调）、字形（偏旁、部首）、四角符号等信息。
 同时可以将这些特征信息转换为tensor，作为模型的输入特征。这个项目是在安德森大佬的 `字符提取工具 <https://github.com/howl-anderson/hanzi_char_featurizer>`_ 的基础上做了优化整合
 
 目前 **char_featurizer** 支持的功能有：
